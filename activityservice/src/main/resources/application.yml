@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: activity-service
+  data:
+    mongodb:
+      uri: mongodb+srv://shivam200020:Gurpreet%402000@cluster0.g2u4ofu.mongodb.net/fitnessActivity?retryWrites=true&w=majority&appName=Cluster0
+      database: fitnessActivity
+
+server:
+  port: 8082
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
